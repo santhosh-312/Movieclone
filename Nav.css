@@ -1,0 +1,67 @@
+
+.nav
+{
+  height: 80px;
+  margin: 20px 20px;
+  padding: 50px 10PX ;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#fffbf4;
+}
+.NavRight>*
+{
+  display: inline-block;
+  margin: 50px;
+}
+.nav>a ,.NavRight>a
+{
+  text-decoration: none;
+  color: #0c005a;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+.search-btn
+{
+  margin: 0px;
+  background-color: crimson;
+  padding: 20px;
+  color: whitesmoke;
+  border: none;
+  border-left: 1px solid whitesmoke;
+  border-radius: 0 40px 40px 0 ;
+  cursor: pointer;
+  transition: .2s;
+}
+.search-btn:hover
+{
+  color: #a2a8d3;
+  border: 2px solid #a2a8d3;
+  padding: 18px;
+}
+.search-btn:active
+{
+  background-color:#a2a8d3;
+  border: none;
+}
+.NavRight>.input>input 
+{
+  font-weight: bold;
+  color: whitesmoke;
+  width: 400px;
+  outline: none;
+  background-color: none;
+  padding: 20px;
+  border: none;
+  border-radius: 40px 0 0 40px ;
+background-color:crimson;
+  
+}
+.NavRight>.input>input::placeholder
+{
+  color: whitesmoke;
+
+}
+
